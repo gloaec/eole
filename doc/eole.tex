@@ -1,0 +1,213 @@
+\documentclass{beamer}
+
+%\usertheme{Madrid}
+\setbeamercovered{transparent}
+\setcounter{tocdepth}{2}
+\usepackage[french]{babel}
+\usepackage[utf8,utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{xunicode} %Unicode extras!
+%\usepackage{xltxtra}  %Fixes
+%\setmainfont{CaviarDreams}
+\usepackage{multicol}
+%\usepackage{colortbtl}
+\usepackage{graphicx}
+\usepackage{verbatim}            % Pour l'insertion de fichier en mode verbatim
+\usepackage{ucs}
+\usepackage{tabto}
+%\usecolortheme{crane}
+\definecolor{UniBlue}{RGB}{83,121,180}
+\definecolor{CleanWhite}{RGB}{255,255,255}
+\setbeamercolor{title}{fg=UniBlue}
+\setbeamercolor{frametitle}{fg=CleanWhite}
+\setbeamercolor{structure}{fg=UniBlue} 
+\newcommand{\eolesmall}{
+    \begin{minipage}[c]{0.10\textwidth}
+        \includegraphics[width=1cm]{img/logo-eole.png}
+    \end{minipage}
+}
+\newcommand{\eolebig}{\includegraphics[width=2cm]{img/logo-eole.png}}
+\newcommand{\eolefull}{\includegraphics{img/logo-eole.png}}
+%\setmonofont[Scale=0.86]{Andale Mono}
+%\usepackage{colortab}
+
+\setbeamertemplate{background}{\includegraphics[width=128mm]{img/banner01.png}}
+
+\title[]{EOLE}
+
+\subtitle{Turnkey solution Overview}
+
+\author[Team Author]{Cadoles Team}
+
+\institute[E.O.L.E]{\includegraphics[width=2cm]{img/logo-eole.png}}
+%\institute[Cadoles]{\includegraphics[width=2cm]{img/logo-cadoles-01.png}}
+
+\date{\today}
+
+\subject{Talks}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>
+      \frametitle{}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+\logo{
+    \includegraphics[width=1cm]{img/logo-ecologie.png}~
+    \hspace{120pt}
+    \includegraphics[width=2cm]{img/logo-cadoles-01.png}~
+    \hspace{113pt}
+    \includegraphics[width=1cm]{img/logo_en.jpg}~
+}
+
+\begin{document}
+
+    % Page de titre
+    \begin{frame}
+        \titlepage
+    \end{frame}
+
+    \begin{frame}
+	    \frametitle{The \textsc{EOLE} Project}
+
+        \begin{itemize}
+        	\item \textbf{How is it born ?}
+
+		    The project has been initiated in 2000 with the Amon firewall. 
+	    	This first piece of work is still sustained and aims at providing 
+       		a shared internet access from a single gate.
+
+        	\item \textbf{A French national scale project}
+
+    		In 2001, \textsc{EOLE} becomes the official national education solution 
+    		and is going to quickly spread around from there.
+
+        	\item \textbf{The \textsc{EOLE} Team}
+
+	    	In 2003, the highly skilled \textsc{EOLE} team takes other minitries 
+	    	along and private customers as well. The project widely spreads and 
+	    	bacomes definitely a well tested global IT solution. 
+    	\end{itemize}
+    \end{frame}
+
+% Frame Historique/Versions EOLE
+
+    \begin{frame}
+	    \frametitle{Missions}
+
+        \begin{itemize}
+		    \item \textsc{EOLE} delivers turnkey solutions to setup 
+            intranet/internet servers.
+		    \item \textbf{\textsc{EOLE} exclusively uses and provides free softwares.}
+	        \item *** Only Free software *** 
+	    \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+	    \frametitle{\textsc{EOLE}'s Scope}
+
+        In the ministery of education:
+	    \begin{itemize}
+	    	\item 15 million students
+	    	\item 1,5 million of teachers, engineers, technical staff, 
+            administatrators, managers\ldots
+	    	\item 63 000 schools (primary, secondary and high schools)
+	    	\item 14 000 educational institutions
+	    \end{itemize}
+	    But also in territorial authorities, Department of Ecology 
+        and other institutions.
+    \end{frame}
+
+    \begin{frame}
+	    \frametitle{Governance}
+	    
+    	\begin{itemize}
+    		\item \textsc{EOLE}, a mutualized project
+		
+    		\item Our moral values
+
+    		Creativity -- Quality -- Scalability
+
+    		\item Our methodology
+
+    		We use some of the principles of agile software development, 
+    		well-known from open source communitites and service providing 
+	    	companies.
+
+    	\end{itemize}
+    \end{frame}
+
+    \begin{frame}
+    	\frametitle{Our Agile Software Development Rules}
+
+	    \begin{itemize}
+	    	\item The team
+		
+    		People and interactions instead of waterfall processus and tools
+
+    		\item The application
+
+		    Priority given to the operational software instead of writing 
+	    	plethora of documents
+    
+    		\item The collaboration
+
+	    	Aware of the customer/user remarks instead of contract negociation
+    
+    		\item The acceptance of changes
+
+	    	Welcome potential modifications instead of following the initial
+    		schedule
+
+    		\item Continuous integration
+
+		    As soon as a task is over, the feature is immediatly available. 
+		    Release often, so the software can be tested at once.
+	    \end{itemize}
+    \end{frame}
+
+
+    \begin{frame}
+	    \frametitle{Community}
+
+		Essential for an Open Source project.
+		Loosely affilated groups of disparate people working on
+		free software together
+
+		\begin{itemize}
+			\item Seminars: Once a year
+			\item Workshops: Once to twice a year
+			\item Attendance at shows and conferences
+			\item Everyday :
+			\begin{itemize}
+				\item Broadcast site -- Reporting -- Wiki
+				\item Broadcast lists
+				\item IRC Channel
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Community}
+
+		Essential for an Open Source project.
+		Loosely affilated groups of disparate people working on
+		free software together
+
+		\begin{itemize}
+			\item Seminars: Once a year
+			\item Workshops: Once to twice a year
+			\item Attendance at shows and conferences
+			\item Everyday :
+			\begin{itemize}
+                \item Broadcast site -- Reporting -- Wiki
+				\item Broadcast lists
+				\item IRC Channel
+			\end{itemize}
+        \end{itemize}
+    \end{frame}
+
+\end{document}

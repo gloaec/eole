@@ -1,0 +1,77 @@
+\documentclass{beamer}
+
+%\usertheme{Madrid}
+\setbeamercovered{transparent}
+\setcounter{tocdepth}{2}
+\usepackage[french]{babel}
+%\usepackage[utf8,utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xunicode} %Unicode extras!
+\usepackage{xltxtra}  %Fixes
+\setmainfont{CaviarDreams}
+\usepackage{multicol}
+%\usepackage{colortbtl}
+\usepackage{graphicx}
+\usepackage{verbatim}            % Pour l'insertion de fichier en mode verbatim
+\usepackage{ucs}
+\usepackage{tabto}
+%\usecolortheme{crane}
+\definecolor{UniBlue}{RGB}{83,121,180}
+\definecolor{CleanWhite}{RGB}{255,255,255}
+\setbeamercolor{title}{fg=UniBlue}
+\setbeamercolor{frametitle}{fg=CleanWhite}
+\setbeamercolor{structure}{fg=UniBlue} 
+\newcommand{\eolesmall}{
+    \begin{minipage}[c]{0.10\textwidth}
+        \includegraphics[width=1cm]{img/logo-eole.png}
+    \end{minipage}
+}
+\newcommand{\eolebig}{\includegraphics[width=2cm]{img/logo-eole.png}}
+\newcommand{\eolefull}{\includegraphics{img/logo-eole.png}}
+%\setmonofont[Scale=0.86]{Andale Mono}
+%\usepackage{colortab}
+
+\setbeamertemplate{background}{\includegraphics[width=128mm]{img/banner01.png}}
+
+\title[]{Titre}
+
+\subtitle{Sous titre}
+
+\author[Equipe Autheur]{Autheur}
+
+\institute[E.O.L.E]{\includegraphics[width=2cm]{img/logo-eole.png}}
+%\institute[Cadoles]{\includegraphics[width=2cm]{img/logo-cadoles-01.png}}
+
+\date{{\small 19 octobre 2012}}
+
+\subject{Talks}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>
+      \frametitle{}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+\logo{
+    \includegraphics[width=1cm]{img/logo-ecologie.png}~
+    \hspace{120pt}
+    \includegraphics[width=2cm]{img/logo-cadoles-01.png}~
+    \hspace{113pt}
+    \includegraphics[width=1cm]{img/logo_en.jpg}~
+}
+
+\begin{document}
+
+    % Page de titre
+    \begin{frame}
+        \titlepage
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Ma Diapo}
+    \end{frame}
+
+\end{document}
